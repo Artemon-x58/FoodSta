@@ -1,0 +1,275 @@
+:root {
+	--main-accent-color: #bbf330;
+	--secondary-accent-color: #ffe450;
+	--color-detalis: #7eb101;
+}
+body {
+	font-family: "Roboto", sans-serif;
+	color: #2c2c2c;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+/* ----------------------------Common classes--------------------------- */
+.container {
+	width: 1278px;
+	margin: 0 auto;
+	padding: 0 15px;
+	outline: 1px solid teal;
+}
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+	color: #2c2c2c;
+}
+
+.btn-main {
+	font-family: "Roboto", sans-serif;
+	cursor: pointer;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 1.53;
+	color: #2c2c2c;
+	background-color: var(--main-accent-color);
+	border: 0;
+	border-radius: 30px;
+}
+
+.btn-main:hover,
+.btn-main:focus {
+	background-color: var(--secondary-accent-color);
+}
+
+.btn-secondary {
+	font-family: "Roboto", sans-serif;
+	cursor: pointer;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 1.53;
+	color: #2c2c2c;
+	background: #ffffff;
+	border: 2px solid var(--color-detalis);
+	border-radius: 30px;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+	background: var(--main-accent-color);
+	border-radius: 30px;
+	border: 2px solid var(--main-accent-color);
+}
+
+/* ----------------------------------------------------------------Home---------------------------------------------------------------- */
+
+/* ----------------------------Header--------------------------- */
+.header {
+}
+.header-content {
+	display: flex;
+	align-items: center;
+}
+.header-logo {
+	margin-right: 735px;
+}
+.header-navigation {
+}
+.header-list {
+	display: flex;
+	gap: 28px;
+}
+.header-item {
+	padding: 28px 0;
+}
+.header-link {
+	font-size: 14px;
+	line-height: 1.14;
+	padding: 28px 0;
+}
+
+.header-link:hover,
+.header-link:focus {
+	color: var(--main-accent-color);
+}
+
+.header-btn {
+	margin-left: 30px;
+	padding: 6px 18px;
+	min-width: 98px;
+	justify-content: flex-end;
+}
+
+/* ----------------------------Hero--------------------------- */
+
+.hero {
+}
+.hero-content {
+	display: flex;
+}
+.hero-title {
+	max-width: 502px;
+	margin-bottom: 28px;
+
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 1.2;
+}
+.hero-img {
+	display: block;
+}
+.hero-text {
+	max-width: 511px;
+	margin-bottom: 40px;
+
+	font-size: 16px;
+	line-height: 1.5;
+}
+.hero-btn {
+	padding: 6px 18px;
+	min-width: 98px;
+}
+
+/* ----------------------------Features--------------------------- */
+
+.features {
+}
+.features-title {
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 1.2;
+}
+.features-subtitle {
+	font-size: 16px;
+	line-height: 1.5;
+}
+.features-list {
+}
+.features-item {
+}
+.features-slogan {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.4;
+}
+.features-text {
+	font-size: 14px;
+	line-height: 1.5;
+}
+.features-btn {
+}
+
+/* ----------------------------Features--------------------------- */
+
+.favorites {
+}
+.favorites-title {
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 1.17;
+	text-align: center;
+}
+.favorites-subtitle {
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+}
+.favorites-list {
+}
+
+.favorites-item {
+}
+
+/* ----------------------------Feedback--------------------------- */
+
+.feedback {
+}
+.feedback-title {
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 1.17;
+}
+.feedback-subtitle {
+	font-size: 16px;
+	line-height: 1.19;
+}
+.feedback-list {
+}
+
+.feedback-item {
+}
+.feedback-quote {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.17;
+}
+.feedback-name {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.5;
+}
+.feedback-text {
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+/* ----------------------------Subscribe--------------------------- */
+
+.subscribe-title {
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 1.2;
+}
+.subscribe-subtitle {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+/* ----------------------------Footer--------------------------- */
+
+.footer {
+}
+.footer-logo {
+}
+.footer-navigation {
+}
+.footer-list {
+}
+
+.footer-item {
+}
+.footer-link {
+	font-size: 14px;
+	line-height: 1.14;
+}
+
+.footer-items {
+}
+.footer-details {
+	font-size: 12px;
+	line-height: 1.17;
+	text-decoration-line: underline;
+	color: var(--color-detalis);
+}
+.footer-text {
+	font-size: 12px;
+	line-height: 1.17;
+}
