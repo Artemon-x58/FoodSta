@@ -32,7 +32,7 @@ img {
 	width: 1278px;
 	margin: 0 auto;
 	padding: 0 15px;
-	outline: 1px solid teal;
+	/* outline: 1px solid teal; */
 }
 .list {
 	list-style: none;
@@ -83,6 +83,9 @@ img {
 
 /* ----------------------------Header--------------------------- */
 .header {
+	background: #fefefe;
+	box-shadow: 0px 4px 24px rgba(105, 105, 105, 0.1);
+	margin-bottom: 14px;
 }
 .header-content {
 	display: flex;
@@ -109,6 +112,7 @@ img {
 .header-link:hover,
 .header-link:focus {
 	color: var(--main-accent-color);
+	text-decoration: underline;
 }
 
 .header-btn {
@@ -124,6 +128,8 @@ img {
 }
 .hero-content {
 	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 .hero-title {
 	max-width: 502px;
@@ -151,72 +157,143 @@ img {
 /* ----------------------------Features--------------------------- */
 
 .features {
+	background-color: yellow;
+}
+.features-content {
+	display: flex;
+	gap: 90px;
 }
 .features-title {
+	margin-bottom: 20px;
+	max-width: 526px;
+
 	font-weight: 700;
 	font-size: 42px;
 	line-height: 1.2;
 }
 .features-subtitle {
+	margin-bottom: 40px;
+	max-width: 500px;
+
 	font-size: 16px;
 	line-height: 1.5;
 }
+.features-icon-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	background-color: #fff;
+}
 .features-list {
+	display: flex;
+	gap: 67px;
 }
 .features-item {
 }
 .features-slogan {
+	margin-bottom: 16px;
+
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 1.4;
 }
 .features-text {
+	max-width: 253px;
+	margin-bottom: 32px;
+
 	font-size: 14px;
 	line-height: 1.5;
 }
 .features-btn {
+	padding: 10px 22px;
 }
 
-/* ----------------------------Features--------------------------- */
+/* ----------------------------Favorites--------------------------- */
 
 .favorites {
 }
 .favorites-title {
+	margin-bottom: 20px;
+
 	font-weight: 700;
 	font-size: 42px;
 	line-height: 1.17;
 	text-align: center;
 }
 .favorites-subtitle {
+	margin-bottom: 40px;
+
 	font-size: 16px;
 	line-height: 1.19;
 	text-align: center;
 }
 .favorites-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 32px;
+	justify-content: center;
+	align-items: center;
 }
-
+.img {
+}
 .favorites-item {
+	width: 394px;
+	height: 397px;
 }
 
 /* ----------------------------Feedback--------------------------- */
 
 .feedback {
+	/* background-color: yellow; */
+	background-image: url(../images/customers-bg.jpg);
+	padding-top: 100px;
+	padding-bottom: 200px;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 .feedback-title {
+	margin-bottom: 20px;
+
 	font-weight: 700;
 	font-size: 42px;
 	line-height: 1.17;
 }
 .feedback-subtitle {
+	margin-bottom: 32px;
+
 	font-size: 16px;
 	line-height: 1.19;
 }
+.feedback-icons {
+	margin-bottom: 28px;
+}
 .feedback-list {
+	display: flex;
+	gap: 139px;
 }
 
 .feedback-item {
+	background-color: #ffffff;
+	max-width: 501px;
+	padding: 14px;
+	border-radius: 0px 30px 30px 30px;
+}
+.container-img-name {
+	display: flex;
+}
+.container-name {
+	margin-left: 16px;
+	border-right: 1px solid #7eb101;
+	padding-top: 4px;
+	padding-right: 14px;
+	padding-bottom: 4px;
 }
 .feedback-quote {
+	margin-bottom: 40px;
+
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 1.17;
@@ -232,28 +309,59 @@ img {
 }
 
 /* ----------------------------Subscribe--------------------------- */
-
+.subccribe {
+	padding-bottom: 64px;
+}
 .subscribe-title {
+	max-width: 656px;
+	margin-bottom: 20px;
+
 	font-weight: 700;
 	font-size: 42px;
 	line-height: 1.2;
 }
 .subscribe-subtitle {
+	max-width: 532px;
 	font-size: 16px;
 	line-height: 1.5;
+}
+.subscribe {
+	display: flex;
+	align-items: center;
 }
 
 /* ----------------------------Footer--------------------------- */
 
 .footer {
+	background: #fefefe;
+	box-shadow: 0px -4px 24px rgba(105, 105, 105, 0.1);
+}
+.footer-container {
+	background-image: url(../images/footer-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1211px 266px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 .footer-logo {
+	margin-right: 148px;
 }
 .footer-navigation {
 }
 .footer-list {
+	display: flex;
+	gap: 28px;
 }
-
+.container-footer-nav {
+	display: flex;
+	align-items: center;
+	margin-bottom: 129px;
+}
+.container-footer-policy {
+	display: flex;
+	align-items: center;
+}
 .footer-item {
 }
 .footer-link {
@@ -262,6 +370,8 @@ img {
 }
 
 .footer-items {
+	display: flex;
+	gap: 20px;
 }
 .footer-details {
 	font-size: 12px;
@@ -270,6 +380,7 @@ img {
 	color: var(--color-detalis);
 }
 .footer-text {
+	margin-left: auto;
 	font-size: 12px;
 	line-height: 1.17;
 }
